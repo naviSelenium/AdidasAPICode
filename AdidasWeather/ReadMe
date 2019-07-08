@@ -1,0 +1,31 @@
+//Technical Specification
+
+1. Framework = BDD and data driven (Hybrid framework)
+2. Tool = Cucumber and related plugin.
+3. IDE = Eclipse Mars.2
+4. Language = Core Java and gherkin(for cucumber)
+5. Java Library = Rest Assured to test RESTful API's
+6. Build tool = Maven
+7. URL from where API is fetched = http://api.openweathermap.org/data/2.5/weather
+8. Junit = testing framework
+
+
+//Setup needed
+
+1. Eclipse IDE set up needed.
+2. Install Maven plugin. 
+3. Install Cucumber plugin for BDD.
+4. Add dependencies of cucumber , rest assured and update the project to import the related jars.
+
+
+//Steps to execute
+
+1. Once the project is imported and setup is completed,traverse to "Options" package under src/test/java in AdidasWeather project.
+2. Click on "CucumberTests.java" project.
+3. Check if the path mentioned to run the tests are correct.
+4. "Feature" package here contains the feature file where our cucumber test are executed.
+5. Check if the package name and path specified are correct.
+6. Right click on the project or click on "run" button and run the application as "Junit".
+7. Now, the program gets executed, results are validated and the output is shown in console.
+8. test
+9. hello
